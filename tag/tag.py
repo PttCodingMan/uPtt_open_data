@@ -11,6 +11,6 @@ def sha256(s):
 
 
 import urllib.request, json
-with urllib.request.urlopen("https://raw.githubusercontent.com/PttCodingMan/uPtt/develop/server/tag/tag.json?token=AOHXCXHI6TM4C55DBILID3C6KXVGU") as url:
+with urllib.request.urlopen("https://raw.githubusercontent.com/PttCodingMan/uPtt_open_data/master/tag/tag.json") as url:
     data = json.loads(url.read().decode())
     print(data)
