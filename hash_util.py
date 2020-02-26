@@ -2,6 +2,7 @@
 
 import hashlib
 
+# https://emn178.github.io/online-tools/sha256.html
 def sha256(s):
     s_lower = s.lower()
     hash = hashlib.sha256(s_lower.encode('utf-8')).hexdigest()
