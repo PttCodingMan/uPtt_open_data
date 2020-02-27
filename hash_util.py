@@ -9,7 +9,7 @@ def sha256(s):
 
 # sha256('QQ_id')
 
-# test 
+# test
 import urllib.request, json
 with urllib.request.urlopen("https://raw.githubusercontent.com/PttCodingMan/uPtt_open_data/master/list/blacklist.json") as url:
     data = json.loads(url.read().decode())
