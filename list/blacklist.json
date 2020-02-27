@@ -1,5 +1,7 @@
 
 {
   "api_version": 1,
-  "black_list": []
+  "black_list": [
+    "7d3850c0f2cdac6cf799a8a5b5f80c803ee250a5cf7f947337e11463661d3999"
+  ]
 }
