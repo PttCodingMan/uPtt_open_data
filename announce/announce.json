@@ -1,3 +1,4 @@
 {
-  "announce": "這是公告 line1\n這是公告 line2"
+  "announce": "這是公告 line1\n這是公告 line2",
+  "api_version": 1
 }
